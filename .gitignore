@@ -1,0 +1,52 @@
+## Build
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+[Aa]rtifacts/
+coverage/
+*.coverage
+*.coveragexml
+coverage.*
+
+## .NET / Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.rsuser
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider / VS Code local
+.idea/
+*.sln.iml
+.vscode/*
+!.vscode/extensions.json
+
+## Local configuration and secrets
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.snk
+
+## SQL Server files and backups
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.bacpac
+*.dacpac
+
+## OS
+.DS_Store
+Thumbs.db
+Desktop.ini
